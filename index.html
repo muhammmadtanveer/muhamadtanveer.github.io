@@ -21,21 +21,31 @@
     header{background:#fff; border-bottom:1px solid #eef2f7; position:sticky; top:0; z-index:20}
     .nav{max-width:var(--maxw); margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:18px}
     .brand{display:flex; gap:12px; align-items:center}
-    .brand img{height:42px; width:42px; border-radius:8px; object-fit:contain}
+    
+    .brand img{height:100px; width:100px; border-radius:8px; object-fit:contain}
     .btn{background:var(--primary); color:#fff; padding:10px 14px; border-radius:10px; font-weight:600}
     .container{max-width:var(--maxw); margin:48px auto; padding:0 20px}
-    .hero{display:grid; grid-template-columns:1fr; gap:22px; align-items:center; padding:36px; background:linear-gradient(180deg, rgba(10,46,78,0.03), #fff); border-radius:var(--radius); border:1px solid #f1f5f9}
+    .hero{display:grid; grid-template-columns:1fr; gap:22px; align-items:center; padding:36px;
+          background: linear-gradient(180deg, rgb(20 69 111 / 3%), #494141);
+          border-radius:var(--radius); border:1px solid #f1f5f9}
     .hero h1{font-size:28px; margin:0; color:var(--primary)}
-    .hero p{margin:0; color:var(--muted)}
+    .hero p{margin:0; color: #5d5e5e;}
     .cta-row{display:flex; gap:12px; margin-top:12px}
     .feature-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:18px; margin-top:28px}
-    .card{background:#fff; border-radius:12px; padding:18px; border:1px solid #eef2f7; box-shadow: 0 6px 18px rgba(12,18,30,0.04)}
+    
+    .card{background:#fff; border-radius:12px; padding:18px;
+          border:1px solid  black; 
+          box-shadow: 0 6px 18px rgba(12,18,30,0.04)}
     .card h3{margin:0 0 8px 0; color:var(--primary)}
-    .small{color:var(--muted); font-size:14px}
+    .small{color: #5d5e5e;; font-size:14px}
     .add-ons{display:flex; gap:12px; flex-wrap:wrap; margin-top:12px}
     .pill{background:#fff8e6; color:#6b4f0b; padding:8px 12px; border-radius:999px; font-weight:600; border:1px solid rgba(212,175,55,0.15)}
     .process{display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; margin-top:20px}
-    .process .step{background:linear-gradient(180deg, #fff, #fbfbfc); padding:16px; border-radius:10px; border:1px solid #f0f3f6}
+    
+    .process .step{
+      background: linear-gradient(180deg, #ffffff, #d0d0db);
+      padding:16px;
+                   border-radius:10px; border:1px solid #f0f3f6}
     .samples{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; margin-top:16px}
     .sample img{width:100%; height:160px; object-fit:cover; border-radius:8px; display:block}
     .logo{width: 100px; height: 100px}
