@@ -55,6 +55,23 @@
       .hero{grid-template-columns:1fr 420px}
       .hero h1{font-size:34px}
     }
+     @media(max-width:520px){
+      .brand{
+        flex-direction: column;
+      }
+    }
+    @media(max-width:400px){
+      .nav{
+        flex-direction: column;
+      }
+      .tagline{  
+          text-align: center;
+      } 
+      .btn{
+        margin-top: 10px;
+      }
+    }
+    
   </style>
 </head>
 <body>
@@ -67,8 +84,8 @@
         <img class="logo" src="https://scontent.fkhi10-1.fna.fbcdn.net/v/t39.30808-6/445725717_122103513284336692_3593137575866856491_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=3kQs2Q0swmwQ7kNvwEGnv5s&_nc_oc=Adlv8ZlGtU74zuq_d7MLGay0AMUTEH6W5hzzO-aePk5CJKSWUHd_ODizpL2e5lw2-fY&_nc_zt=23&_nc_ht=scontent.fkhi10-1.fna&_nc_gid=QB8ZnwhCPA3Zrt9HQeYxNw&oh=00_AfUvnBNJiN-vrmiPcxBtFwVdxRG00LLwt-F-mOtzH3LFXQ&oe=68A08B5C">
        
         <div>
-          <div style="font-weight:1000; color:var(--primary)">SocialVibe Solutions</div>
-          <div style="font-size:12px; color:var(--muted)">White-label posting for furniture agencies</div>
+          <div class='tagline' style="font-weight:1000; color:var(--primary)">SocialVibe Solutions</div>
+          <div class='tagline'  style="font-size:12px; color:var(--muted)">White-label posting for furniture agencies</div>
         </div>
       </div>
 
